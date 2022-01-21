@@ -53,7 +53,7 @@ public class Login implements ActionListener {
         panel.add(emailText);
 
         //login button
-        int loginButtonXPos = (width - 80) / 2;
+        int loginButtonXPos = (width - 90) / 2;
         JButton loginButton = new JButton("LOGIN");
         loginButton.setBounds(loginButtonXPos, 75, 80, 25);
         loginButton.setFocusPainted(false);
