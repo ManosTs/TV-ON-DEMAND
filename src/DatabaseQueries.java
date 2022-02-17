@@ -172,10 +172,10 @@ public class DatabaseQueries {
                         rs.getString("title"),
                         rs.getString("description"),
                         rs.getInt("release_year"),
-                        rs.getString("rating"),
-                        rs.getString("special_features"),
                         rs.getString("language"),
-                        rs.getString("original_language")
+                        rs.getString("original_language"),
+                        rs.getString("rating"),
+                        rs.getString("special_features")
                 );
                 serieList.add(serie);
             }
